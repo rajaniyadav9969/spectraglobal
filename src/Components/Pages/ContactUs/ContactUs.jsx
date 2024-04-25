@@ -154,7 +154,7 @@ const ContactUs = () => {
                     }
                   }}
                   value={FormData.Phone}
-                  className={`MuiTextField ${contactStyle.MuiTextField}`}
+                  className={contactStyle.MuiTextField}
                   onChange={(e) => { setFormData(prev => ({ ...prev, Phone: e.target.value })) }}
                 />
                 <TextField
@@ -175,7 +175,7 @@ const ContactUs = () => {
                       color: 'white'
                     }
                   }}
-                  className={contactStyle.MuiTextField}
+                  className={`MuiTextField ${contactStyle.MuiTextField}`}
                   onChange={(e) => { setFormData(prev => ({ ...prev, Comment: e.target.value })) }}
 
                 />
