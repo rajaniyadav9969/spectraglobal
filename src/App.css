@@ -80,7 +80,7 @@
   cursor: pointer;
 }
 
-.MuiTextField .MuiInputBase-root{
+.MuiTextField .MuiOutlinedInput-root{
   color: #fcfcfc!important;
 }
 
