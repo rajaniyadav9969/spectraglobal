@@ -154,7 +154,7 @@ const ContactUs = () => {
                     }
                   }}
                   value={FormData.Phone}
-                  className={contactStyle.MuiTextField}
+                  className={`MuiTextField ${contactStyle.MuiTextField}`}
                   onChange={(e) => { setFormData(prev => ({ ...prev, Phone: e.target.value })) }}
                 />
                 <TextField
