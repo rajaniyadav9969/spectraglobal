@@ -28,7 +28,7 @@ const ContactUs = () => {
       number: number.value,
 
     };
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("https://spectraglobal-pi.vercel.app/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
