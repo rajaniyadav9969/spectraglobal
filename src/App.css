@@ -80,6 +80,10 @@
   cursor: pointer;
 }
 
+.MuiTextField .MuiInputBase-root{
+  color: #fcfcfc!important;
+}
+
 
 
 
